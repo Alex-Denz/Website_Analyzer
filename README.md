@@ -10,6 +10,8 @@ My study project, a simple tool to have a quick glance at the website structure 
 - **Meta Tag Scoring** - Get effectiveness scores for title and description length.
 - **Header Hierarchy** - Visualize H1–H4 structure with indentation and color coding.
 - **Per-Element Scoring** - Each header scored for optimal length.
+<img width="1113" height="867" alt="image" src="https://github.com/user-attachments/assets/45b03c95-cc60-4492-b0be-c0b9fb7b4dc0" />
+
 
 ### Niche / Competitor Comparison
 - **Multi-Site Comparison** - Compare 2-10 competitor pages at once (shows the degree of similarity).
@@ -71,6 +73,7 @@ The built files will be in the `dist/` directory.
 ## 📖 How to Use
 
 ### Analyzing a Single Page
+<img width="1132" height="613" alt="image" src="https://github.com/user-attachments/assets/1c242555-40dc-46c9-b326-a348e93d69aa" />
 
 1. Go to the **Analyze URL** tab;
 2. Enter a website URL (e.g., `https://example.com`);
@@ -79,13 +82,28 @@ The built files will be in the `dist/` directory.
 
 > **Tip:** If URL analysis fails due to CORS restrictions, switch to the **Analyze HTML** tab. Visit the site in your browser, right-click -> "View Page Source" (Ctrl+U), copy the HTML, and paste it there.
 
+<img width="1142" height="805" alt="image" src="https://github.com/user-attachments/assets/ba78aac5-e936-4141-9a0a-9b23dfebca88" />
+
+
 ### Niche Analysis
 
 1. Go to the **Niche Analysis** tab;
+<img width="1133" height="462" alt="Monosnap Image 2026-11-01 20 10 40" src="https://github.com/user-attachments/assets/f323bf37-bee5-4d06-bdf6-d347670dcab8" />
+
+*Click "URL" to switch to the HTML mode*
+
 2. Add 2-10 competitor URLs (or paste their HTML);
+<img width="1123" height="532" alt="Monosnap Image 2026-11-01 20 12 42" src="https://github.com/user-attachments/assets/e30493dd-ec23-40b6-be62-d2b65bc46f28" />
+
+*Click "Add Input" to include more sites*
+
 3. Click **Analyze Niche**;
 4. Review the comparison results and recommendations;
+<img width="1128" height="665" alt="Monosnap Image 2026-11-01 20 15 17" src="https://github.com/user-attachments/assets/f3790317-561f-4940-81eb-4606476d7318" />
+
 5. Click **Generate Website Structure** for a suggested page layout;
+<img width="1095" height="825" alt="Monosnap Image 2026-11-01 20 17 22" src="https://github.com/user-attachments/assets/a5752211-1de4-4218-9051-765eba4d755f" />
+
 6. Download reports as TXT or JSON.
 
 ## 📁 Project Structure
