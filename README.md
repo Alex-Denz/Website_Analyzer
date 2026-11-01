@@ -1,33 +1,33 @@
 # 🔍 Website Structure Analyzer
 
-A powerful browser-based tool for analyzing website SEO structure. Analyze individual pages or compare multiple competitor sites to discover patterns and get actionable recommendations.
+My study project, a simple tool to have a quick glance at the website structure or compare multiple web pages to find SEO-related similarities (keywords, meta tag lengths, number and length of headers). Also, it suggests a model website structure based on analyzed web pages. Nothing too crazy or advanced. I initially created it to find patterns or regularities in competitor website structures and headings without going through the entire page. It helps to source and compare headers and define the appropriate length for optimal SEO results.
 
 ## ✨ Features
 
 ### Single Page Analysis
-- **URL Analysis** — Enter any URL to fetch and analyze its structure
-- **HTML Analysis** — Paste raw HTML source code directly (more reliable)
-- **Meta Tag Scoring** — Get effectiveness scores for title and description length
-- **Header Hierarchy** — Visualize H1–H4 structure with indentation and color coding
-- **Per-Element Scoring** — Each header scored for optimal length
+- **URL Analysis** - Enter any URL to fetch and analyze its structure.
+- **HTML Analysis** - Paste raw HTML source code directly (more reliable).
+- **Meta Tag Scoring** - Get effectiveness scores for title and description length.
+- **Header Hierarchy** - Visualize H1–H4 structure with indentation and color coding.
+- **Per-Element Scoring** - Each header scored for optimal length.
 
-### Niche / Competitor Analysis
-- **Multi-Site Comparison** — Analyze 2–10 competitor websites at once
-- **Mixed Input Modes** — Use URLs and raw HTML inputs in the same analysis
-- **Common Keyword Detection** — Find frequently used keywords across competitors
-- **Structural Similarity Scoring** — See how consistent competitors' page structures are
-- **Smart Recommendations** — Get data-driven suggestions for meta tags and header structure
+### Niche / Competitor Comparison
+- **Multi-Site Comparison** - Compare 2-10 competitor pages at once (shows the degree of similarity).
+- **Mixed Input Modes** - Use URLs and raw HTML inputs in the same analysis (URLs aren't working well so far).
+- **Common Keyword Detection** - Find frequently used keywords across competitors.
+- **Structural Similarity Scoring** - See how consistent competitors' page structures are.
+- **Smart Recommendations** - Get suggestions for meta tags and header structure.
 
 ### Website Structure Generator
-- **One-Click Generation** — Generate a recommended website structure from niche analysis data
-- **Hierarchical Output** — H1 → H2 → H3 → H4 with parent-child relationships
-- **Keyword-Driven Suggestions** — H2 suggestions based on top competitor keywords
-- **Copy & Export** — Copy individual sections or the entire structure to clipboard
+- **Generate Website Structure** - Get a recommended website structure from niche analysis data ('Niche Analysis' -> add sites for analysis -> 'Analyze Niche' -> 'Generate Website Structure').
+- **Hierarchical Output** - H1 -> H2 -> H3 -> H4 with parent-child relationships.
+- **Keyword-Driven Suggestions** - H2 suggestions based on top competitor keywords.
+- **Copy & Export** - Copy individual sections or the entire structure to the clipboard.
 
 ### Export Options
-- **Copy to Clipboard** — Copy any section or full analysis
-- **Download Reports** — Export as TXT or JSON
-- **Text Reports** — Clean, formatted text reports for sharing
+- **Copy to Clipboard** - Copy any section or full analysis.
+- **Download Reports** - Export as TXT or JSON.
+- **Text Reports** - Clean, formatted text reports for sharing.
 
 ## 🚀 Quick Start
 
@@ -62,31 +62,31 @@ The built files will be in the `dist/` directory.
 
 ## 🛠️ Tech Stack
 
-- **React 18** — UI framework
-- **TypeScript** — Type safety
-- **Vite** — Build tool and dev server
-- **Tailwind CSS** — Styling
-- **Lucide React** — Icons
+- **React 18** - UI framework
+- **TypeScript** - Type safety
+- **Vite** - Build tool and dev server
+- **Tailwind CSS** - Styling
+- **Lucide React** - Icons
 
 ## 📖 How to Use
 
 ### Analyzing a Single Page
 
-1. Go to the **Analyze URL** tab
-2. Enter a website URL (e.g., `https://example.com`)
-3. Click **Analyze Website**
-4. View your results with effectiveness scores
+1. Go to the **Analyze URL** tab;
+2. Enter a website URL (e.g., `https://example.com`);
+3. Click **Analyze Website**;
+4. View your results with effectiveness scores.
 
-> **Tip:** If URL analysis fails due to CORS restrictions, switch to the **Analyze HTML** tab. Visit the site in your browser, right-click → "View Page Source" (Ctrl+U), copy the HTML, and paste it there.
+> **Tip:** If URL analysis fails due to CORS restrictions, switch to the **Analyze HTML** tab. Visit the site in your browser, right-click -> "View Page Source" (Ctrl+U), copy the HTML, and paste it there.
 
 ### Niche Analysis
 
-1. Go to the **Niche Analysis** tab
-2. Add 2–10 competitor URLs (or paste their HTML)
-3. Click **Analyze Niche**
-4. Review the comparison results and recommendations
-5. Click **Generate Website Structure** for a suggested page layout
-6. Download reports as TXT or JSON
+1. Go to the **Niche Analysis** tab;
+2. Add 2-10 competitor URLs (or paste their HTML);
+3. Click **Analyze Niche**;
+4. Review the comparison results and recommendations;
+5. Click **Generate Website Structure** for a suggested page layout;
+6. Download reports as TXT or JSON.
 
 ## 📁 Project Structure
 
@@ -117,8 +117,12 @@ src/
 
 This tool runs entirely in the browser. Some websites block cross-origin requests, which prevents URL-based analysis. The tool tries multiple CORS proxies automatically, but if all fail:
 
-1. Use the **HTML tab** instead — it's actually more reliable
-2. Visit the target site → View Source → Copy → Paste
+1. Use the **HTML tab** instead;
+2. Visit the target site → View Source → Copy → Paste.
+
+## ⚠️ DISCLOSURE
+
+The interface is written by Claude, as I currently do not have the skill set to create nice UX/UI (working on it, though).
 
 ## 📄 License
 
@@ -128,8 +132,8 @@ MIT
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. Fork the repository;
+2. Create your feature branch (`git checkout -b feature/amazing-feature`);
+3. Commit your changes (`git commit -m 'Add amazing feature'`);
+4. Push to the branch (`git push origin feature/amazing-feature`);
+5. Open a Pull Request.
